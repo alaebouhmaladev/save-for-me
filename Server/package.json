@@ -4,9 +4,16 @@
   "description": "SaveForMe is a full-stack web application built with the MERN (MongoDB, Express.js, React.js, Node.js) stack. This project allows users to securely store and manage personal information such as contacts, notes, and other details.",
   "license": "ISC",
   "author": "Alae Bouhmala",
-  "type": "commonjs",
+  "type": "module",
   "main": "server.js",
   "scripts": {
-    "test": "npm start"
+    "run": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongodb": "^6.15.0",
+    "nodemon": "^3.1.9"
   }
 }
