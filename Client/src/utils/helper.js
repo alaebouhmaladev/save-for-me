@@ -1,8 +1,11 @@
+
+// Email Validation fomrat method 
 export const validateEmail = (email) => {
   const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return regex.test(email);
 };
 
+// Name Letters generator Method 
 export const getInitials = (name) => {
   if (!name) {
     return "";

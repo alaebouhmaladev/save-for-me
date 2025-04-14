@@ -6,12 +6,12 @@ const ProfileInfo = ({ onLogout }) => {
     return(
         <div className="flex items-center gap-6">
             <div className="w-12 h-12 flex items-center justify-center rounded-full text-slate-950 font-bold bg-slate-200">
-                {getInitials("John Willam")}
+                {getInitials("Alae Bouhmala")}
             </div>
 
 
         <div>
-            <p  className="text-sm font-medium" >John Willam</p>
+            <p  className="text-sm font-medium" >Alae Bouhmala</p>
             <button className="text-sm text-slate-900 underline" onClick={onLogout}> Logout </button>
         </div>
         </div>
